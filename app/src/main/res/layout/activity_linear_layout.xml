@@ -9,20 +9,113 @@
     tools:context="com.hlc.ejerciciosclaselayout.LinearLayout">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="266dp">
+            android:layout_width="274dp"
+            android:layout_height="163dp">
+
+            <TableRow android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/bt07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/bt08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/bt09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/bt04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/bt05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/bt06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/bt01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/bt02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/bt03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+            </TableRow>
 
         </TableLayout>
 
         <Button
             android:id="@+id/button10"
             android:layout_width="275dp"
-            android:layout_height="243dp"
+            android:layout_height="wrap_content"
             android:text="Button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            tools:text="=" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C" />
     </LinearLayout>
 </LinearLayout>
