@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, TableLayout.class);
         startActivity(i);
     }
+
+    public void abrirLinearLayout(View v){
+        Intent i = new Intent(this, LinearLayout.class);
+        startActivity(i);
+    }
 }

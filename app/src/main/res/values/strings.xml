@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">EjerciciosClaseLayout</string>
     <string name="relativeLayoutBTTexto">Relative Layout</string>
+    <string name="autor">Autor</string>
+    <string name="titulo">Titulo del producto</string>
+    <string name="queEs">¿Que es android?</string>
+    <string name="queEsTexto">Android es un sistema operativo basado en el núcleo Linux. Fue diseñado principalmente para dispositivos móviles con pantalla táctil.</string>
+    <string name="usos">Usos y dispositivos</string>
+    <string name="usosText">El sistema operativo Android se usa en teléfonos inteligentes, ordenadores portátiles, netbooks, tabletas, Google TV, relojes de pulsera,60​ auriculares, receptores decodificadores integrados61​ y otros dispositivos,62​63​64​ siendo este sistema operativo accesible desde terminales de menos de $100 hasta terminales que superen los $1000.</string>
+    <string name="versiones">Versiones</string>
+    <string name="versionesText">Oreo \nNougat \nMarshmallow \nLollipop \nKitKat  \nJelly Bean (Michel) </string>
+
+
+
 </resources>

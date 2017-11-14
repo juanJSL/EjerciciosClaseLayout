@@ -22,5 +22,12 @@
         android:text="Table Layout"
         android:onClick="abrirtableLayout"/>
 
+    <Button
+        android:id="@+id/linearLayoutBT"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:text="Relative Layout"
+        android:onClick="abrirLinearLayout"/>
+
 
 </LinearLayout>
