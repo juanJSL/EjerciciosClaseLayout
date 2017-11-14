@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, LinearLayout.class);
         startActivity(i);
     }
+
+    public void abrirConstrainLayout(View v){
+        Intent i = new Intent(this, ConstrainLayout.class);
+        startActivity(i);
+    }
 }

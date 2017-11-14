@@ -29,5 +29,12 @@
         android:text="Relative Layout"
         android:onClick="abrirLinearLayout"/>
 
+    <Button
+        android:id="@+id/constrainBT"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="ConstrainLayout"
+        android:onClick="abrirConstrainLayout"/>
+
 
 </LinearLayout>
